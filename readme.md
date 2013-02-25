@@ -1,4 +1,4 @@
-# slidify
+# slidify-app
 
 ## Markdown slides render engine
 
