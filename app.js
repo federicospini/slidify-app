@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
-var build = require('./build.js')();
+var slidify = require('slidify')();
 
 app.get('/slidify', function (req, res) {
   var md = req.query.md;
-  build(md, function (err, slides) {
+  slidify(md, function (err, slides) {
     if (err) {
       res.send('<h1>Huston, we got a problem!<h1>');
       return;

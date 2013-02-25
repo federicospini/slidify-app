@@ -1,12 +1,12 @@
 {
   "author": "Federico Spini <federico.spini@gmail.com>",
-  "name": "slidify",
-  "description": "Markdown slides render engine",
+  "name": "slidify-app",
+  "description": "SlidifyApp - Markdown slides render engine",
   "version": "0.0.1",
-  "homepage": "https://github.com/spini/slidify",
+  "homepage": "https://github.com/spini/slidify-app",
   "repository": {
     "type": "git",
-    "url": "git://github.com/spini/slidify.git"
+    "url": "git://github.com/spini/slidify-app.git"
   },
   "main": "",
   "engines": {
@@ -14,10 +14,7 @@
   },
   "dependencies": {
     "express": ">=3.1.0",
-    "superagent": ">=0.12.4",
-    "mustache": "0.7.2",
-    "highlight.js":"7.3.0",
-    "marked": "0.2.8"
+    "slidify": ">=0.0.1"
   },
   "devDependencies": {}
 }
